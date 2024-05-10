@@ -1,7 +1,7 @@
 import face_recognition
 
 # Load the images
-image1 = face_recognition.load_image_file("path/to/first/image.jpg")
+image1 = face_recognition.load_image_file("path/to/image.jpg")
 image2 = face_recognition.load_image_file("path/to/second/image.jpg")
 
 # Find face encodings for each image
